@@ -1,3 +1,4 @@
-from python:2.7-alpine
-RUN mkdir /app
+FROM node:alpine
+COPY . /app
 WORKDIR /app
+CMD node app.js
