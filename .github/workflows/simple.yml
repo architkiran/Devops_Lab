@@ -21,4 +21,4 @@ jobs:
         run: npm install
       
       - name: Run script
-        run: node your_script.js
+        run: node trial.js
